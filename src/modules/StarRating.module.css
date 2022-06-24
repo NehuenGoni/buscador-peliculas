@@ -1,0 +1,33 @@
+.star{
+    cursor: pointer;
+    transition: color 200ms;
+    
+}
+
+.radio{
+    display: none;
+}
+
+.starLabel{
+
+}
+
+.starForm{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.starDiv{
+    background-color: black;
+    border-radius: 15px;
+    position: static;
+    top: 300px
+}
+
+.p{
+    color: aliceblue;
+    font-family: Georgia;
+    font-size: 20px;
+}

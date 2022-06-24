@@ -1,0 +1,52 @@
+.buscadorContainer{
+    display: block;
+    justify-content: center;
+    width: 100% ;
+}
+
+.buscadorBox{
+    position: relative;
+    max-width: 90%  ;
+    justify-content: center;
+    top: 10px;
+    margin-left: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.buscadorInput{
+    display: flex;
+    height: 40px;
+    border-radius: 15px;
+    justify-content: center;
+    width: 80%;
+    background-color: rgb(82, 58, 58);
+    color: aliceblue;
+    padding: 5px 10px 5px 25px;
+    font-size: 1.2rem;
+    border: 1px solid rgb(243, 93, 6);
+    
+}
+
+.buscadorInput::placeholder {
+    color: red;
+    font-size: 1.2em;
+    font-style: italic
+}
+
+.buscadorInput:focus{
+    outline: none;
+    border: 2px solid  #EF1204;
+    box-shadow: 0 0 5px #EF1204;
+}
+
+
+.buscadorButton{
+    position: absolute;
+    left: 10px ;
+    top: 0;
+    cursor: pointer;
+    height: 100%;
+    border: none;
+    background: none;
+}

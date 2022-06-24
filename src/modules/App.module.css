@@ -1,0 +1,46 @@
+.title{
+    text-align: center;
+    font-size: 400%;
+    font-family: Georgia;
+    margin-top: 20px;
+    margin-block-end: 70px;
+    letter-spacing: -2px;
+    font-weight: bolder;
+    border: 3px;
+    border-color: red;
+    color: rgb(114, 2, 2);
+}
+
+.h3{
+    text-align: center;
+    font-size: 1rem;
+    font-family: Georgia, sans-serif;
+    font-size: 1em;
+    margin-bottom: 0px;
+    letter-spacing: -2px;
+    font-weight: bolder;
+    border-color: red;
+    border-width: 2px;
+}
+
+.header{
+    position: static;
+    left: 0px;
+    height: 250px;
+    top: 0px;
+    width: 100%;
+    justify-content: center;
+    background-image: url(https://i.blogs.es/28fe21/sin-city.willis/1366_2000.jpg);
+    background-size: 100%;
+}
+
+.footer{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    background:rgb(138, 35, 35);
+    justify-content: center;
+}
+
